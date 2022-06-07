@@ -9,6 +9,7 @@ readme = "readme.md"
 license = "MIT/Apache-2.0"
 categories = ["embedded", "hardware-support", "no-std"]
 keywords = ["amperka", "troyka-hat", "embedded-hal", "embedded-hal-impl", "hal"]
+autoexamples = false
 
 [dependencies]
 embedded-hal = { version = "^0.2", features = ["unproven"] }
