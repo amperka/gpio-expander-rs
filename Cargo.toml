@@ -8,7 +8,7 @@ repository = "https://github.com/amperka/gpio-expander-rs"
 readme = "readme.md"
 license = "MIT/Apache-2.0"
 categories = ["embedded", "hardware-support", "no-std"]
-keywords = ["amperka", "troyka-hat", "gpio-expander", "embedded-hal", "embedded-hal-impl", "hal"]
+keywords = ["amperka", "troyka-hat", "embedded-hal", "embedded-hal-impl", "hal"]
 
 [dependencies]
 embedded-hal = { version = "^0.2", features = ["unproven"] }
