@@ -1,0 +1,19 @@
+[package]
+name = "gpio-expander"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roman Samusevich <rs@amperka.ru>"]
+description = "A platform-independent driver for interacting with the products GPIO Port Expander (Troyka Module), Troyka HAT and Slot Expander Expansion Board"
+repository = "https://github.com/amperka/gpio-expander-rs"
+readme = "readme.md"
+license = "MIT/Apache-2.0"
+categories = ["embedded", "hardware-support", "no-std"]
+keywords = ["amperka", "troyka-hat", "gpio-expander", "embedded-hal", "embedded-hal-impl", "hal"]
+
+[dependencies]
+embedded-hal = { version = "^0.2", features = ["unproven"] }
+shared-bus = "^0.2"
+
+[dev_dependencies]
+rppal = { version = "^0.13", features = ["hal"] }
+embedded-hal-mock = "^0.8"
