@@ -1,7 +1,7 @@
 `gpio-expander`
 ===============
-[![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
-[![Docs](https://docs.rs/oxipng/badge.svg)](https://docs.rs/oxipng)
+[![Version](https://img.shields.io/crates/v/gpio-expander.svg)](https://crates.io/crates/gpio-expander)
+[![Docs](https://docs.rs/gpio-expander/badge.svg)](https://docs.rs/gpio-expander)
 
 This is a crate that provides a general abstraction for an I²C port expander used in the [`GPIO Port Expander (Troyka Module)`], [`Troyka HAT`] and [`Slot Expander Expansion Board`] products. This abstraction is not necessarily the most performant, but it allows pins to be used in the same way as direct GPIOs. Because pin types also implement [`embedded-hal`] digital I/O characteristics, they can also be passed to subsequent drivers (for example, as a reset or chip select pin).
 

@@ -1,7 +1,7 @@
 `gpio-expander`
 ===============
-[![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
-[![Docs](https://docs.rs/oxipng/badge.svg)](https://docs.rs/oxipng)
+[![Version](https://img.shields.io/crates/v/gpio-expander.svg)](https://crates.io/crates/gpio-expander)
+[![Docs](https://docs.rs/gpio-expander/badge.svg)](https://docs.rs/gpio-expander)
 
 Это крейт, предоставляющий общую абстракцию для I²C расширителя портов, используемый в продуктах [`Расширитель GPIO-портов (Troyka-модуль)`], [`Troyka HAT`] и [`Плата расширения Slot Expander`]. Эта абстракция не обязательно самая производительная, но она позволяет использовать контакты так же, как прямые GPIO из HAL. Поскольку типы выводов также реализуют характеристики [`embedded-hal`] пинов ввода/вывода, они также могут быть переданы последующим драйверам (например, в качестве вывода сброса или выбора микросхемы).
 
