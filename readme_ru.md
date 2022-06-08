@@ -1,5 +1,7 @@
 `gpio-expander`
 ===============
+[![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
+[![Docs](https://docs.rs/oxipng/badge.svg)](https://docs.rs/oxipng)
 
 Это крейт, предоставляющий общую абстракцию для I²C расширителя портов, используемый в продуктах [`Расширитель GPIO-портов (Troyka-модуль)`], [`Troyka HAT`] и [`Плата расширения Slot Expander`]. Эта абстракция не обязательно самая производительная, но она позволяет использовать контакты так же, как прямые GPIO из HAL. Поскольку типы выводов также реализуют характеристики [`embedded-hal`] пинов ввода/вывода, они также могут быть переданы последующим драйверам (например, в качестве вывода сброса или выбора микросхемы).
 
@@ -72,4 +74,4 @@ let mut expander: GpioExpander<std::sync::Mutex<_>> = GpioExpander::new(i2c, Non
 [`Расширитель GPIO-портов (Troyka-модуль)`]: https://amperka.ru/product/troyka-gpio-expander
 [`Troyka HAT`]: https://amperka.ru/product/raspberry-pi-troyka-hat
 [`Плата расширения Slot Expander`]: https://amperka.ru/product/slot-expander
-[`examples`]: https://github.com/amperka/gpio-expander-rs/examples
+[`examples`]: https://github.com/amperka/gpio-expander-rs/tree/main/examples

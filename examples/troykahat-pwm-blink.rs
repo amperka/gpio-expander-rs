@@ -24,13 +24,13 @@ fn main() -> Result<(), Box<dyn Error>> {
         thread::sleep(Duration::from_millis(delay_change));
 
         if up {
-            n += 257;
-            if n >= 65535 {
+            n += 200;
+            if n == 65400 {
                 up = false
             }
         } else {
-            n -= 257;
-            if n <= 0 {
+            n -= 200;
+            if n == 0 {
                 up = true
             }
         }

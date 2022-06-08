@@ -18,3 +18,15 @@ shared-bus = "^0.2"
 [dev_dependencies]
 rppal = { version = "^0.13", features = ["hal"] }
 embedded-hal-mock = "^0.8"
+
+[[example]]
+name = "troykahat-adc"
+path = "examples/troykahat-adc.rs"
+
+[[example]]
+name = "troykahat-blink"
+path = "examples/troykahat-blink.rs"
+
+[[example]]
+name = "troykahat-pwm-blink"
+path = "examples/troykahat-pwm-blink.rs"
